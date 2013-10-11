@@ -1,9 +1,9 @@
-#require 'faraday'
-#require 'faraday_middleware'
+require 'faraday'
+require 'faraday_middleware'
 require 'recereco/configuration'
-#require 'recereco/response'
-#equire 'recereco/error/client_error'
-#require 'recereco/error/decode_error'
+require 'recereco/response'
+require 'recereco/error/client_error'
+require 'recereco/error/decode_error'
 
 module Recereco
   module Request

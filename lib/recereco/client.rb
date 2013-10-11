@@ -1,11 +1,12 @@
 require 'recereco/configuration'
 require 'recereco/request'
-
+require 'recereco/api/money'
 
 module Recereco
   class Client
     include Recereco::Configuration
     include Recereco::Request
+    include Recereco::API::Money
 
     attr_accessor :oauth_token
     attr_writer :oauth_token_secret
