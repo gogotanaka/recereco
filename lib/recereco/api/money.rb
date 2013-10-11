@@ -16,7 +16,7 @@ module Recereco
       # @example Return the list of input money data if authentication was successful.
       #   client.money_get
       def money_get(options={})
-        objects_from_response(Recereco::Money, :get, '/api/1/latestreceipt', :money, options)
+        objects_from_response(Recereco::Money, :get, '/api/1/latestreceipt?from=20130101_090000&page=0', :money, options)
       end
       alias money money_get
 

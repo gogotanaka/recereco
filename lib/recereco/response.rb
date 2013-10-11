@@ -13,7 +13,6 @@ module Recereco
     class RaiseError < Faraday::Response::Middleware
 
       def on_complete(env)
-        binding.pry
         status_code = env[:status].to_i
         error_class = @klass.errors[status_code]
         raise error_class.from_response(env) if error_class
