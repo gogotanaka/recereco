@@ -11,8 +11,8 @@ module Recereco
     include Recereco::API::Categories
     include Recereco::API::Currencies
     include Recereco::API::Genres
-    #include Recereco::API::Money
-    #include Recereco::API::Users
+    include Recereco::API::Money
+    include Recereco::API::Users
     include Recereco::Configuration
     include Recereco::Request
 
