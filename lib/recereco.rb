@@ -1,12 +1,8 @@
 require 'recereco/account'
-require 'recereco/category'
 require 'recereco/client'
 require 'recereco/configuration'
-require 'recereco/currency'
 require 'recereco/default'
-require 'recereco/genre'
-require 'recereco/money'
-require 'recereco/user'
+
 module Recereco
   class << self
     include Recereco::Configuration

@@ -1,18 +1,9 @@
-require 'recereco/api/accounts'
-require 'recereco/api/categories'
-require 'recereco/api/currencies'
-require 'recereco/api/genres'
 require 'recereco/configuration'
 require 'recereco/request'
 
+
 module Recereco
   class Client
-    include Recereco::API::Accounts
-    include Recereco::API::Categories
-    include Recereco::API::Currencies
-    include Recereco::API::Genres
-    include Recereco::API::Money
-    include Recereco::API::Users
     include Recereco::Configuration
     include Recereco::Request
 
