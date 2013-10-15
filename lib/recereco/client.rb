@@ -26,6 +26,7 @@ module Recereco
       oauth_token_keys.each do |key|
         instance_variable_set(:"@#{key}", options[key])
       end
+      binding.remote_pry
       self
     end
 
