@@ -11,7 +11,7 @@ module Recereco
     attr_writer :consumer_secret
     def_delegator :options, :hash
 
-    ENDPOINT = 'https://api.recereco.com'.freeze unless defined? Recereco::Configuration::ENDPOINT
+    ENDPOINT = 'https://apidev.recereco.com'.freeze unless defined? Recereco::Configuration::ENDPOINT
 
     class << self
 
