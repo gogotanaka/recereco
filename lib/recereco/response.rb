@@ -8,6 +8,7 @@ require 'recereco/error/not_acceptable'
 require 'recereco/error/not_found'
 require 'recereco/error/service_unavailable'
 require 'recereco/error/unauthorized'
+
 module Recereco
   module Response
     class RaiseError < Faraday::Response::Middleware
