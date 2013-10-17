@@ -1,4 +1,3 @@
-require 'recereco/account'
 require 'recereco/client'
 require 'recereco/configuration'
 require 'recereco/default'
